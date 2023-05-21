@@ -1,4 +1,5 @@
 ### pytorch + distributed + tab-transformer
+#### python version: 3.7
 ```bash
 $ python min.py --rank 3
 ```
