@@ -182,7 +182,8 @@ def main():
     model_dis = model.to(my_device)
     model_dis = nn.parallel.DistributedDataParallel(model_dis)
 
-    path = '../data/cbtc/csv/new/1.hcz2cq/'
+    # path = '../data/cbtc/csv/new/1.hcz2cq/'
+    path = './data/'
     train_path = path + 'train.csv'
     test_path = path + 'test.csv'
 
