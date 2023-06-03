@@ -1,14 +1,14 @@
 ### pytorch + distributed + tab-transformer
 #### python version: 3.7
 ```bash
-$ python min.py --rank 3
+$ python main.py --rank 3
 ```
 ```bash
-$ python min.py --rank 2
+$ python main.py --rank 2
 ```
 ```bash
-$ python min.py --rank 1
+$ python main.py --rank 1
 ```
 ```bash
-$ python min.py --rank 0
+$ python main.py --rank 0
 ```
